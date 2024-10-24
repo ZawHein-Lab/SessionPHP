@@ -1,0 +1,4 @@
+cookie store only "string"
+
+when cookieset store as assoc arrau and use json_encode to change to string 
+when we call back use json_decode to change to array

@@ -1,0 +1,9 @@
+ <?php $student = json_decode($_COOKIE['student'],true);
+                        // var_dump($student)
+                        ?> 
+                        <tr>
+                            <td> <?= $student['roll'] ?></td>
+                            <td> <?=  $student['name'] ?></td>
+                            <td>  <?= $student['email'] ?></td>
+                            <td>  <?= $student['age']  ?></td>
+                        </tr>
